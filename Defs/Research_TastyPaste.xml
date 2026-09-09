@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- 第一级：美味营养膏 —— 不再扣心情，科研点与营养膏机一致（400） -->
+  <ResearchProjectDef>
+    <defName>DeliciousPasteL1</defName>
+    <label>美味营养膏</label>
+    <description>优化营养膏合成机的配方与调味，搭配出更符合人类味觉的口感。从此人们不再因为吃营养膏而心生厌恶。</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>NutrientPaste</li>
+    </prerequisites>
+    <researchViewX>10.00</researchViewX>
+    <researchViewY>1.20</researchViewY>
+  </ResearchProjectDef>
+
+  <!-- 第二级：精致营养膏 —— 等同于精致食物的加成（+5 心情），科研点 1000 -->
+  <ResearchProjectDef>
+    <defName>DeliciousPasteL2</defName>
+    <label>精致营养膏</label>
+    <description>对营养膏配方进行彻底的精炼与调味，使其口感和营养足以媲美精致的烹饪餐点，广受好评。</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DeliciousPasteL1</li>
+    </prerequisites>
+    <researchViewX>11.20</researchViewX>
+    <researchViewY>1.20</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

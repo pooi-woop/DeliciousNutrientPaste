@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>好吃的营养膏 Delicious Nutrient Paste</name>
+  <author>YOUR_NAME</author>
+  <packageId>tastypaste.deliciousnutrientpaste</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+    </li>
+  </modDependencies>
+  <description>让营养膏变好吃！
+
+在「营养膏合成机」之后解锁两级科技：
+
+第一级「美味营养膏」：合成机产出的营养膏不再扣除心情。
+—— 科研点与营养膏机相同（400）。
+
+第二级「精致营养膏」：合成机产出的营养膏拥有等同于精致食物的加成（+5 心情）。
+—— 科研点 1000。
+
+说明：只有完成了对应研究后，由营养膏合成机产出的营养膏才会升级为美味/精致版本。</description>
+</ModMetaData>
