@@ -2,7 +2,7 @@
 <Defs>
 
   <!-- 美味营养膏（第一级）：与普通营养膏相同，但去掉了「恶心」的 ateEvent，吃下时不再扣心情 -->
-  <ThingDef ParentName="MealBaseIngredientless">
+  <ThingDef ParentName="MealBase">
     <defName>MealNutrientPaste_DeliciousL1</defName>
     <label>美味营养膏</label>
     <description>经过配方优化的营养膏。虽然算不上多美味，但至少不再让人反胃，食用后心情不再受到影响。</description>
@@ -30,7 +30,7 @@
   </ThingDef>
 
   <!-- 精致营养膏（第二级）：拥有等同于精致食物的 tasteThought（AteFineMeal，+5 心情） -->
-  <ThingDef ParentName="MealBaseIngredientless">
+  <ThingDef ParentName="MealBase">
     <defName>MealNutrientPaste_DeliciousL2</defName>
     <label>精致营养膏</label>
     <description>经彻底精炼与调味的高端营养膏，口感和营养足以媲美精致的烹饪餐点，食用后令人心情愉悦。</description>
